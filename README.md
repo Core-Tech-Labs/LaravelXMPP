@@ -1,7 +1,5 @@
 **A PHP Package that leverages XMPP/ejabberd and laravel to work coherently**
 
-Currently only supported for Laravel 5.2
-
 ## Install
 
 Via Composer
@@ -12,10 +10,14 @@ $ composer require ctl/LaravelXMPP
 
 ## Installation
 
+Run ...
 
 ``` bash
 $ php artisan vendor:publish
 ```
+
+To publich im.php configuration file
+
 
 Add the service provider to the `'providers'` array in `config/app.php`
 
@@ -29,7 +31,7 @@ If you want to use the Facade class, add the class to the `'aliases'` array
 'IM' => CTL\XMPPMessageBase\IM::class,
 ```
 
-Navigate to `config/IM.php`. Add `host`,`port`, `user`, `password` for your laravel app to connect to service.
+Navigate to `config/im.php`. Add `host`,`port`, `user`, `password` for your laravel app to connect to service.
 
 
 ## Testing
