@@ -1,5 +1,5 @@
 {
-    "name": "ctl/LaravelXMPP",
+    "name": "ctl/laravelxmpp",
     "description": "Easy to use XMPP package for laravel",
     "type": "library",
     "license": "EPL-1.0",

@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/Core-Tech-Labs/LaravelXMPP.svg?branch=master)](https://travis-ci.org/Core-Tech-Labs/LaravelXMPP)
+
+
+
 **A PHP Package that leverages XMPP/ejabberd and laravel to work coherently**
 
 ## Install
@@ -5,7 +9,7 @@
 Via Composer
 
 ``` bash
-$ composer require ctl/LaravelXMPP
+$ composer require ctl/laravelxmpp
 ```
 
 ## Installation
