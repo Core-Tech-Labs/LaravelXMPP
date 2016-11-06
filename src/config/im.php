@@ -1,5 +1,5 @@
 <?php
-
+return [
 /**
  * XMPP config settings
  *
@@ -11,3 +11,4 @@
         'user' => env('XMPP_USER'),
         'password'=> env('XMPP_PASSWORD'),
   ],
+];
