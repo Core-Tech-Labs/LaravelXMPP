@@ -7,11 +7,13 @@
         {
             "name": "Rudy Jessop",
             "email": "rudyjessop@gmail.com",
+            "homepage":"http://rudyjessop.com",
             "role": "Developer"
         },
         {
             "name":"Core Tech Labs",
             "email":"info@ctlabs.net",
+            "homepage":"http://ctlabs.net",
             "role":"Owner"
         }
     ],
