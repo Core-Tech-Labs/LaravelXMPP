@@ -14,10 +14,16 @@ class IMServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->publishes([
-            __DIR__.'/config/im.php' => base_path('config'),
-         ]);
+        $this->publishFiles();
+    }
 
+    /**
+     * Publishes files that package needs
+     */
+    public function publishFiles(){
+        $this->publishes([
+            __DIR__.'/config/im.php' => config_path('im.php'),
+         ]);
     }
 
     /**
