@@ -10,7 +10,7 @@ class IM extends Facade{
    * Facade Acessor
    * @return [type] [description]
    */
-  protected static function getFacadeAcessor(){
+  protected static function getFacadeAccessor(){
     return 'IM';
   }
 
